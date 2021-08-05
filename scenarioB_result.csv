@@ -1,0 +1,47 @@
+Dataset1b,Decision Tree,,DATASET1 (117 - cat = 91 features),,,,,,,DATASET2 (184 - cat = 158),,,,,,,DATASET3 (196 - cat = 168),,,,,,,,,,,,
+,Random Forest,,MODEL,ACCURACY,RECALL,PRECISION,F1_SCORE,GINI_SCORE,,MODEL,ACCURACY,RECALL,PRECISION,F1_SCORE,GINI_SCORE,,MODEL,ACCURACY,RECALL,PRECISION,F1_SCORE,GINI_SCORE,,,,,,,
+,Gradient Boosted Trees,,Decision Tree,0.7254,0.593,0.7028,0.5891,0.1436,,Decision Tree,0.7244,0.5987,0.6921,0.5984,0.112,,Decision Tree,0.7244,0.5987,0.6921,0.5984,0.112,,,,,,,
+Dataset2b,Decision Tree,,Random Forest,0.7202,0.5791,0.7021,0.5677,0.1279,,Random Forest,0.7158,0.5685,0.6997,0.5504,0.1176,,Random Forest,0.7147,0.5575,0.7271,0.5278,0.1302,,,,,,,
+,Random Forest,,Gradient Boosted Trees,0.7292,0.6008,0.7075,0.6001,0.1498,,Gradient Boosted Trees,0.7263,0.6004,0.6968,0.6004,0.1188,,Gradient Boosted Trees,0.7263,0.6004,0.6968,0.6004,0.1188,,,,,,,
+,Gradient Boosted Trees,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Dataset3b,Decision Tree,,,,,,,,,,,,,,,,,,,,,,,Dataset,Model,Accuracy,Precision,Recall,F1 score
+,Random Forest,,,,,,,,,62 features,,,,,,,,,,,,,,dataset1a,Decision Tree,0.7254,0.593,0.7028,0.5891
+,Gradient Boosted Trees,,,,,,,,,MODEL,ACCURACY,PRECISION,RECALL,F1_SCORE,GINI_SCORE,,,,,,,,,,Random Forest,0.7202,0.5791,0.7021,0.5677
+Fullb,Decision Tree,,,,,,,,,Decision Tree,0.7244,0.5987,0.6921,0.5984,0.112,,,,,,,,,,Gradient Boosted Tree,0.7292,0.6008,0.7075,0.6001
+,Random Forest,,,,,,,,,Random Forest,0.7237,0.5863,0.7063,0.5786,0.1308,,,,,,,,,dataset2b,Decision Tree,0.7244,0.5987,0.6921,0.5984
+,Gradient Boosted Trees,,,,,,,,,Gradient Boosted Trees,0.7263,0.6004,0.6968,0.6004,0.1188,,,,,,,,,,Random Forest,0.7158,0.5685,0.6997,0.5504
+Filtered1b,Decision Tree,,,,,,,,,,,,,,,,,,,,,,,,Gradient Boosted Tree,0.7263,0.6004,0.6968,0.6004
+,Random Forest,,,,,,,,,,,,,,,,,,,,,,,dataset3b,Decision Tree,0.7244,0.5987,0.6921,0.5984
+,Gradient Boosted Trees,,,,,,,,,20 features,,,,,,,,,,,,,,,Random Forest,0.7147,0.5575,0.7271,0.5278
+Filtered2b,Decision Tree,,,,,,,,,MODEL,ACCURACY,PRECISION,RECALL,F1_SCORE,GINI_SCORE,,,,,,,,,,Gradient Boosted Tree,0.7263,0.6004,0.6968,0.6004
+,Random Forest,,,,,,,,,Decision Tree,0.7244,0.5976,0.6933,0.5967,0.1125,,,,,,,,,,,,,,
+,Gradient Boosted Trees,,,,,,,,,Random Forest,0.7263,0.5924,0.7079,0.5877,0.1543,,,,,,,,,,,,,,
+Filtered3b,Decision Tree,,,,,,,,,Gradient Boosted Trees,0.7274,0.6015,0.6995,0.6018,0.127,,,,,,,,,,,,,,
+,Random Forest,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Gradient Boosted Trees,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Filtered4b,Decision Tree,,,,,,,,,10 features,,,,,,,,,,,,,,,,,,,
+,Random Forest,,,,,,,,,MODEL,ACCURACY,PRECISION,RECALL,F1_SCORE,GINI_SCORE,,,,,,,,,,,,,,
+,Gradient Boosted Trees,,,,,,,,,Decision Tree,0.7213,0.5942,0.6858,0.5925,0.1395,,,,,,,,,,,,,,
+Filtered5b,Decision Tree,,,,,,,,,Random Forest,0.7228,0.5972,0.6879,0.5966,0.1174,,,,,,,,,,,,,,
+,Random Forest,,,,,,,,,Gradient Boosted Trees,0.7231,0.5944,0.6921,0.5922,0.1177,,,,,,,,,,,,,,
+,Gradient Boosted Trees,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,5 features,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,MODEL,ACCURACY,PRECISION,RECALL,F1_SCORE,GINI_SCORE,,,,,,,,,,,,,,
+,,,,,,,,,,Decision Tree,0.7213,0.5966,0.6836,0.5962,0.1041,,,,,,,,,,,,,,
+,,,,,,,,,,Random Forest,0.7241,0.598,0.6916,0.5974,0.1144,,,,,,,,,,,,,,
+,,,,,,,,,,Gradient Boosted Trees,0.722,0.5963,0.6862,0.5955,0.139,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,2 features,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,MODEL,ACCURACY,PRECISION,RECALL,F1_SCORE,GINI_SCORE,,,,,,,,,,,,,,
+,,,,,,,,,,Decision Tree,0.7213,0.5966,0.6836,0.5962,0.1041,,,,,,,,,,,,,,
+,,,,,,,,,,Random Forest,0.7241,0.598,0.6916,0.5974,0.1144,,,,,,,,,,,,,,
+,,,,,,,,,,Gradient Boosted Trees,0.722,0.5963,0.6862,0.5955,0.139,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,1 features,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,MODEL,ACCURACY,PRECISION,RECALL,F1_SCORE,GINI_SCORE,,,,,,,,,,,,,,
+,,,,,,,,,,Decision Tree,0.6942,0.5664,0.6237,0.5591,0.0385,,,,,,,,,,,,,,
+,,,,,,,,,,Random Forest,0.6942,0.5664,0.6237,0.5591,0.0385,,,,,,,,,,,,,,
+,,,,,,,,,,Gradient Boosted Trees,0.6942,0.5664,0.6237,0.5591,0.0385,,,,,,,,,,,,,,
