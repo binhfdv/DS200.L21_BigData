@@ -16,6 +16,7 @@ Use for instance <https://github.com/ekalinin/github-markdown-toc>:
 * [Experiment pipelines](#experiment-pipelines)
 * [Feature extraction pipelines](#feature-extraction-pipelines)
 * [Code](#code)
+* [Presentation slides and Report](#presentation-slides-and-report)
 * [Reference](#reference)
 
 ## Data source
