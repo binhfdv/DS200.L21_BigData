@@ -7,8 +7,6 @@
 
 ## Table of contents
 
-Use for instance <https://github.com/ekalinin/github-markdown-toc>:
-
 > * [DS200.L21 / Big data](#DS200.L21--Big-data)
 * [About](#about)
 * [Table of contents](#table-of-contents)
